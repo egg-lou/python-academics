@@ -20,5 +20,6 @@ def print_resume():
     print("Volunteer Experience: AWS Community Day Philippines 2023 Event Manager and Web Developer")
     print("Certifications:  Technical Support Fundamentals, JavaScript Algorithms and Data Structures")
 
+
 if __name__ == "__main__":
     print_resume()

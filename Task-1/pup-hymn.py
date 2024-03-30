@@ -25,9 +25,6 @@ def print_hymn():
 
     print(hymn)
 
+
 if __name__ == "__main__":
     print_hymn()
-
-
-
-
