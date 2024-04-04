@@ -13,5 +13,4 @@ if __name__ == '__main__':
         print(f'{working_hours} hours worked is equal to Php{gross_pay}')
 
     except ValueError as e:
-
         print(f'Please enter a number {e}')
