@@ -1,16 +1,13 @@
-def convert_to_peso(value, rate):
-    return value * rate
-
 
 if __name__ == '__main__':
     try:
         peso_rate = 45.50
     
         amount = float(input('Input amount to convert: '))
+
+        convert = lambda amt: amt * peso_rate
         
-        converted_amount = convert_to_peso(amount, peso_rate)
-        
-        print(f'${amount} is equal to Php {converted_amount}')
+        print(f'${amount} is equal to Php {convert(amount)}')
     
     except ValueError as e:
         print(f'Invalid Input {e}')
