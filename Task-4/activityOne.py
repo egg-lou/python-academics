@@ -1,4 +1,3 @@
-
 def get_ranking(*grades):
     average = sum(grades) / len(grades)
     if average > 100 or average < 50:
@@ -9,7 +8,7 @@ def get_ranking(*grades):
         {"lower": 95, "upper": 97, "rank": "With High Honors"},
         {"lower": 90, "upper": 94, "rank": "With Honors"},
         {"lower": 75, "upper": 89, "rank": "Passed"},
-        {"lower": 51, "upper": 74, "rank": "Failed"},
+        {"lower": 74, "upper": 74, "rank": "Failed"},
     ]
 
     for boundary in grade_boundaries:
