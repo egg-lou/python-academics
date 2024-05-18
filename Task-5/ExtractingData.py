@@ -7,4 +7,5 @@ def display_students(course_students):
         for student in course[1]:
             print(f"   - {student}")
 
+
 display_students(students)
