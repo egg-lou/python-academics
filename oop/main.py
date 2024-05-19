@@ -1,9 +1,4 @@
-from car import Car
+from area import Area
 
-car_1 = Car("Toyota", "Supra", "1990", "Silver")
-print(car_1.make)
-print(car_1.model)
-print(car_1.year)
-print(car_1.color)
-car_1.drive()
-car_1.stop()
+rectangle_area = Area(10, 2)
+print(rectangle_area.rectangle())
