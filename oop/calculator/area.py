@@ -1,4 +1,4 @@
-
+from calcu import Calculator
 
 
 class Area(Calculator):
